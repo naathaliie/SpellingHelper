@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "The Girl Next Door"; /* Namn du använder senare i CSS */
+  src: url("../fonts/TheGirlNextDoor-Regular.ttf") format("truetype"); /* Stigen till fonten */
+  font-weight: 400; /* Normal vikt */
+  font-style: normal; /* Normal stil */
+}
+
+
+
+@layer utilities {
+    .font-handWritten {
+        font-family: "The Girl Next Door", sans-serif;
+    }
+
+    @media (min-width: 768px) {
+        .font-handWritten {
+            font-size: 2rem; /* Exempel på storlek för större skärmar */
+        }
+    }
+}
