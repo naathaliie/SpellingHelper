@@ -9,16 +9,60 @@
   font-style: normal; /* Normal stil */
 }
 
+@font-face {
+    font-family: "ComicNeue";
+    src: url("../fonts/ComicNeue-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: "ComicNeue";
+    src: url("../fonts/ComicNeue-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"ComicNeue" ;
+    src: url("../fonts/ComicNeue-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
 
 @layer utilities {
-    .font-handWritten {
-        font-family: "The Girl Next Door", sans-serif;
+    .handWritten {
+        @apply font-handWritten text-headline-mobile;
     }
 
-    @media (min-width: 768px) {
-        .font-handWritten {
-            font-size: 2rem; /* Exempel på storlek för större skärmar */
+    .comicNeue-regular{
+        @apply font-normal font-comicNeue text-body-lg-mobile
+    }
+
+    .comicNeue-bold{
+        @apply font-bold font-comicNeue text-body-lg-mobile
+    }
+
+    .comicNeue-light{
+        @apply font-light font-comicNeue text-body-lg-mobile
+    }
+
+    @screen md {
+        .handWritten {
+            @apply text-headline;
+        }
+
+        .comicNeue-regular{
+            @apply text-body-lg
+        }
+
+        .comicNeue-bold{
+            @apply text-body-lg
+        }
+
+        .comicNeue-light{
+            @apply text-body-lg
         }
     }
 }
