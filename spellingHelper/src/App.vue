@@ -5,6 +5,10 @@
     Jag skrivs i handwritten-fonten
   </div>
 
+  <div class="text-pink-500 handWrittenSmall m-4">
+    Jag skrivs i handwritten-small
+  </div>
+
   <div class="text-orange-400 comicNeue-regular">
     Jag skrivs i comicNeue-fonten
   </div>

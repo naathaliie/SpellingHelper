@@ -36,6 +36,10 @@
         @apply font-handWritten text-headline-mobile;
     }
 
+    .handWrittenSmall {
+        @apply font-handWritten text-body-sm;
+    }
+    
     .comicNeue-regular{
         @apply font-normal font-comicNeue text-body-lg-mobile
     }
