@@ -3,6 +3,39 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: { // Lägg till dina egna färger här
+        spellingHelper: {
+          pinkPop: {
+            light: '#F4CAE0',
+            dark: '#e789ba',
+          },
+          pinkDash: {
+            light: '#D7B9D5',
+            dark: '#c294bf',
+          },
+          purplePie: {
+            light: '#ADA7C9',
+            dark: '#968fba',
+          },
+          greenSplash: {
+            light: '#ACFCD9',
+            dark: '#60f9b6',
+          },
+          redIrish: {
+            light: '#FFA09E',
+            dark: '#ff6663',
+          },
+          ice: '#DFEEEF',
+          antique: '#F8ECD9',
+          mushroom: '#EAE7DF',
+          white: '#FFFFFF',
+          blackish: '#191919',
+          grey: {
+            light: '#EFEEED',
+            medium: '#D1CFCD',
+          },
+        },
+      },
       fontFamily: { // Lägg till din handskrift font här
         Platform: ["Platform", "sans-serif"],
         handWritten: ["The Girl Next Door", "cursive"],

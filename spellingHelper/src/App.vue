@@ -21,6 +21,35 @@
     Jag skrivs med comicNeue-Light-fonten
   </div>
   <div>jag skrivs med fonten som är default</div>
+
+  <div class="flex flex-wrap w-full max-w-lg">
+    <button
+      class="bg-spellingHelper-pinkPop-light w-36 h-10 m-2 rounded-lg border-2 border-black hover:bg-spellingHelper-pinkPop-dark"
+    >
+      pinkPop
+    </button>
+
+    <button
+      class="bg-spellingHelper-pinkDash-light w-36 h-10 m-2 rounded-lg border-2 border-black hover:bg-spellingHelper-pinkDash-dark"
+    >
+      pinkDash
+    </button>
+    <button
+      class="bg-spellingHelper-purplePie-light w-36 h-10 m-2 rounded-lg border-2 border-black hover:bg-spellingHelper-purplePie-dark"
+    >
+      purplePie
+    </button>
+    <button
+      class="bg-spellingHelper-greenSplash-light w-36 h-10 m-2 rounded-lg border-2 border-black hover:bg-spellingHelper-greenSplash-dark"
+    >
+      greenSplash
+    </button>
+    <button
+      class="bg-spellingHelper-redIrish-light w-36 h-10 m-2 rounded-lg border-2 border-black hover:bg-spellingHelper-redIrish-dark"
+    >
+      redIrish
+    </button>
+  </div>
 </template>
 
 <style scoped></style>
