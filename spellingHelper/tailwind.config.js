@@ -6,7 +6,7 @@ export default {
       colors: { // Lägg till dina egna färger här
         spellingHelper: {
           pinkPop: {
-            light: '#F4CAE0',
+            light: '#fbc3e0',
             dark: '#e789ba',
           },
           pinkDash: {
