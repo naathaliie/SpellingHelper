@@ -1,4 +1,4 @@
-<script setup></script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="text-pink-500 handWritten m-4">
@@ -49,6 +49,8 @@
     >
       redIrish
     </button>
+
+    <RegularButton />
   </div>
 </template>
 
