@@ -49,8 +49,6 @@
     >
       redIrish
     </button>
-
-    <RegularButton />
   </div>
 </template>
 
